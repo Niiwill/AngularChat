@@ -1,0 +1,24 @@
+<div class="col-md-10 " ng-controller="homeCtrl" >
+
+  <div class="row">
+	<div class="col-md-12 messageScreen " ng-style="screenheight" >
+	  <div class="message col-md-10"  ng-repeat="msg in messages">
+        <div class="imageExample" ng-style="heroImage"></div>
+        <h2>{{msg.username}}</h2>
+        <h3>{{msg.date | date:'H:mm a'}}</h3>
+        <div class="messageContent">{{msg.message}}</div>
+	    
+	  </div> 
+    </div>
+  
+
+ 
+	<div class=" col-md-12 newMessage nopadding">
+		<textarea class="col-md-10" id="new_message" ng-model="newMessage"
+                placeholder="Type in your message" rows="3" ></textarea>
+<!--         <button  class="col-md-2 sendbtn" type="submit" ng-click="addNewMessage()">SEND</button>
+ -->          <a href="" class="button red col-md-2" type="submit"ng-click="addNewMessage()">Send</a>	
+</div>
+
+  </div>
+</div>

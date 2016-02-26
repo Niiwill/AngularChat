@@ -1,0 +1,109 @@
+nav{
+	border-top: 30px solid #00ADB5;
+	background-color: #222831 ;
+}
+.navList{
+    -webkit-box-shadow: inset 0px 6px 10px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 0px 6px 10px 0px rgba(0,0,0,0.25);
+    box-shadow: inset 0px 6px 10px 0px rgba(0,0,0,0.25);
+    padding: 50px;
+}
+nav h2, .loginTitle h2{
+	color: white;
+	padding: 35px;
+	color: white;
+	line-height: 1.4;
+	font-family: 'Open Sans', sans-serif;
+}
+nav h3{
+	opacity: 0.7;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #EEEEEE;
+
+}
+nav li{
+	
+	text-decoration: none;
+	list-style: none;
+}
+nav li a{
+	color: #ddd;
+	opacity: 0.8;
+}
+
+.loginTitle h2{
+	color: white;
+	padding-bottom: 20;
+}
+.messageScreen{
+	padding-top: 20px;
+	background-image: url('http://i.imgur.com/AMf9X7E.jpg');
+	background-size: 100%;
+	border-top: 30px solid #00ADB5;
+	overflow: auto;
+
+
+}
+#new_message{
+	float: left;
+}
+.red {
+  background: #ff4444;
+  border-bottom: 3px solid #cc0000;
+}
+.button {
+ display: inline-block;
+    text-align: center;
+    padding: 16px 0px;
+    color: white;
+    transition: 300ms ease-in-out;
+    box-shadow: 0px 4px 20px #ccc;
+    font-size: 22px;
+    /* margin: 50px 2.6%; */
+}
+  .button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 2px 20px #777;
+  }
+  a:hover{
+  	text-decoration: none;
+  	color: #fff;
+  }
+.newMessage{ 
+	height: 66px;
+	background: yellow;
+}
+.sendbtn{
+	padding: 21px;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.imageExample{
+    border-radius: 15px;
+	float: left;
+	width: 50px;
+	height: 50px;
+	
+
+}
+.loginPanel{
+	background-image: url('http://i.imgur.com/AMf9X7E.jpg');
+	background-size: 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	text-align: center;
+	padding-top: 180px;
+}
+.messageContent{
+	   padding-top: 10px;
+    padding-left: 70px;
+    overflow-wrap: break-word;
+    width: 100%;
+    padding-right: 70px;
+    padding-bottom: 3px;
+}
